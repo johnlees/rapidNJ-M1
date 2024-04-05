@@ -1,3 +1,9 @@
+
+This replaces the standard SSE2 intrinsics used in rapidNJ by using the [sse2neon](https://github.com/DLTcollab/sse2neon)
+headers, which will run on ARM CPUs (notably M1 Macs).
+
+# RAPIDNJ README
+
 Compilation:
 Dependencies: C++
 

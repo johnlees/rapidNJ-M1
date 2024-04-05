@@ -1,5 +1,6 @@
 #include "bitDistanceProtein.hpp"
-#include <emmintrin.h>
+// #include <emmintrin.h>
+#include "sse2neon.h"
 
 v4ui bitDistanceProtein::mask1of8 = _mm_set_epi32(0x01010101,0x01010101,0x01010101,0x01010101);
 v4ui bitDistanceProtein::mask8 = _mm_set_epi32(0x00ff00ff,0x00ff00ff,0x00ff00ff,0x00ff00ff);

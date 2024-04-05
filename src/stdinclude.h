@@ -6,7 +6,8 @@
 #include <stdlib.h>
 #include <string>
 #include <cstring>
-#include <emmintrin.h>
+// #include <emmintrin.h>
+#include "sse2neon.h"
 #include <vector>
 #include "pthread.h"
 #include "ProgressBar.hpp"

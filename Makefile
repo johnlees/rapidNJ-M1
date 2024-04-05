@@ -14,7 +14,7 @@ INCLUDES= -Isrc/distanceCalculation -Isrc/ -Ilib/includes
 else
 CC = g++
 LINK = g++
-OPTIMIZATION_LEVEL=-O3 -msse2
+OPTIMIZATION_LEVEL=-O3 -march=armv8-a+fp+simd+crypto+crc
 DEBUG= #-Wall #-g #-pg
 OBJECTFLAG =-o
 COMPILEFLAG =-c
